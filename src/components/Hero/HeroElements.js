@@ -34,17 +34,18 @@ font-weight: 150;
 }
 `
 export const HeroH1 = styled.h1`
-font-size: clamp(3.5rem, 8vw,5rem);
+font-size: clamp(4.5rem, 8vw,5rem);
 font-weight: 150;
 margin-bottom: 1rem;
-box-shadow: 1.5px 0.5px #fff;
-letter-spacing: 3px;
+letter-spacing: 1px;
 `
 export const HeroP = styled.p`
-font-size: clamp(1rem, 2.5vw,3rem);
+font-size: clamp(2rem, 2.5vw,3rem);
 margin-bottom: 2rem;
+letter-spacing: 0.5px;
 `
 export const HeroBtn = styled.button`
+text-align: left;
 margin-top: 0.5rem;
 font-size: 1.4rem;
 padding: 1rem 4rem;
@@ -53,10 +54,11 @@ border: none;
 background: rgba(1,1,1,0.3);
 color: #fff;
 transition: 0.2s ease-out;
+box-shadow: 2.5px 0.5px #fff;
 &:hover{
     background: #ffc500;
     transition: 0.2s ease-out;
-cursor: pointer;
-color: #000;
+    cursor: pointer;
+    color: #000;
 }
 `
